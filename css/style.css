@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/**
+ * Start of Custom Styles
+ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    padding: 0 0.938rem;
+	margin: 0 auto;
+}
+
+/**
+ * Start of Navigation Section
+ */
+
+.top-navigation {
+	background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+ }
+
+.top-navigation > .content {
+	height: .50rem;
+}
+
+.top-navigation .logo {
+    height: 4.375rem;
+}
+
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+} 
+
+/**
+ * Introduction Section
+ */
+.introduction {
+	background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction h1 {
+    margin-top: 18.0rem;
+    font-size: 3.125rem;
+}
+
+.introduction h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.big-button {
+    width: 155px;
+    background-color: #f15a22;
+    border-color: #f15a22;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+}
+
+.big-button:hover {
+    background-color: #cf3d0e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+/**
+ * The Three Case Images
+ */
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 35px;
+    font-weight: 300;
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: black;
+    text-align: center;
+}
+
+.cases .devices > li {
+    width: 33.333%;
+}
+
+.cases .devices {
+	display: flex;
+	list-style-type: none;
+}
+   
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
+
+/**
+ * The Footer Section
+ */
+
+.social hr {
+    border: 0;
+    border-top: 2px solid #eaebec;
+    margin: 1.0rem 0;
+}
+
+.social .copy {
+	font-size: 1rem;
+    font-weight: 10;
+    color: gray;
+}
+
+.social h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+.social .icons {
+	list-style-type: none;
+}
