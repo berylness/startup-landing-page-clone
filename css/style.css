@@ -29,7 +29,7 @@ body {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
-    padding: 0px 15px;
+    padding: 0px 65px;
  }
 
 .top-navigation > .content {
@@ -149,29 +149,53 @@ body {
     font-size: 1.313rem;
 }
 
+
 /**
- * The Footer Section
+ * Footer
  */
-
-.social hr {
-    border: 0;
-    border-top: 2px solid #eaebec;
-    margin: 1.0rem 0;
-}
-
-.social .copy {
-	font-size: 1rem;
-    font-weight: 10;
-    color: gray;
-}
-
 .social h5 {
     font-size: 1rem;
     font-weight: 500;
     color: black;
+    text-align: center;
 }
 
-
-.social .icons {
-	list-style-type: none;
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: .10rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social .copy {
+    font-size: 1.0rem;
+    font-weight: 300;
+    color: #838994;
+}
+
